@@ -1,0 +1,14 @@
+{
+  "name": "lcbp-with-sockets",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000m\u0000e\u0000s\u0000s\u0000e\u0000g\u0000i\u0000t\u0000-\u0000w\u0000i\u0000t\u0000h\u0000-\u0000s\u0000o\u0000c\u0000k\u0000e\u0000t\u0000s\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "server": "nodemon server/index.js",
+    "build": "npm install --legacy-peer-deps --prefix server && npm install --legacy-peer-deps --prefix client && npm run build --prefix client"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
